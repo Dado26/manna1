@@ -1,0 +1,182 @@
+/*!
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.register-position{
+ position: relative;
+ left: 55%;
+ width: 450px;
+}
+.login-position{
+    width: 450px;
+    position: relative;
+    left: 15%;
+}
+.content .row .members-position{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.contact-position{
+    width: 400px;
+    position: relative;
+    left: 30%;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+.clan-position{
+    //position: relative;
+    //left: 1225px;
+    margin-bottom: 5px;
+    margin-left: 84%;
+    margin-top: 0;
+    
+    .btn-lg{
+      width: 210px;  
+    }
+}
+.about-position{
+    margin-left: 25px;
+}
+.position-create-church{
+    margin-left: 41%;
+    margin-bottom: 300px;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+
+
+#page-content-wrapper {
+  padding: 0;
+}
+
+header.bg-image-full {
+  height: 400px;
+  background-position: center;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  padding-top: 50px;
+}
+
+header.bg-image-full p.lead {
+  background-color: rgba(0,0,0, 0.4);
+  color: #FFF;
+  max-width: 500px;
+  padding: 20px 30px;
+  font-size: 1.7rem;
+}
+
+footer.footer .container p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.nav.navbar-nav li.active a {
+  background-color: #3097D1;
+}
+
+.nav.navbar-nav li a:hover,
+.nav.navbar-nav li a:focus {
+  background-color: #277EB0 !important;
+}
+
+.nav.navbar-nav li a {
+  color: #FFF;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#sidebar-wrapper ul.sidebar-nav hr {
+  border-color: #3b3b3b;
+}
+
+#sidebar-wrapper ul.sidebar-nav li a i {
+  margin-right: 10px;
+}
+
+#sidebar-wrapper ul.sidebar-nav li {
+  position: relative;
+}
+
+#sidebar-wrapper ul.sidebar-nav li a.pull-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#sidebar-wrapper ul.sidebar-nav li a.pull-right i {
+  position: relative;
+  left: -15px;
+}
+
+.btn.add-member {
+  position:absolute;
+  top:22px;
+  right:17px;
+}
+
+form.filter-form label input {
+  margin-left: 10px;
+}
+
+form.filter-form label {
+  margin-right: 10px;
+}
+.table-responsive table.table.table-striped tr th a{
+    text-decoration: none;
+}
